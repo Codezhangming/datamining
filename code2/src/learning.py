@@ -3,9 +3,11 @@
   作    者   : 张茗 
 '''
 import os
-import numpy as np
-from conf.settings import LEARNING_DATA_DIR
 from collections import defaultdict
+
+import numpy as np
+
+from code2.conf.settings import LEARNING_DATA_DIR
 
 item = ['面包', '牛奶', '奶酪', '苹果', '香蕉']
 
